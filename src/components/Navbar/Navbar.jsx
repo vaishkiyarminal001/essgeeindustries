@@ -39,9 +39,9 @@ function Navbar() {
 
   return (
     <AppBar 
-
-    style={{backgroundColor:'white' }}
-    position="static">
+      style={{ backgroundColor: 'white', position: 'fixed', top: 0, zIndex: 1000 }} // Make navbar sticky
+      position="static"
+    >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <IconButton
@@ -67,26 +67,26 @@ function Navbar() {
           </Box>
 
           {/* menu  */}
-          <Box sx={{ display: { xs: 'none', md: 'flex', mx: 1, } }}>
+          <Box sx={{ display: { xs: 'none', md: 'flex', mx: 1 } }}>
             {pages.map((page) => (
               <Button
-              key={page}
-              component={RouterLink}
-              to={"/" + page.toLowerCase()}
-              sx={{
-                my: 2,
-                mx: 1,
-                color: 'black',
-                fontSize: '15px',
-                fontWeight: 'bold',
-                '&:hover': {
-                  backgroundColor: '#f0f0f0', // Change background color on hover
-                  color: '#0093dd', // Change text color on hover
-                },
-              }}
-            >
-              {page}
-            </Button>
+                key={page}
+                component={RouterLink}
+                to={"/" + page.toLowerCase()}
+                sx={{
+                  my: 2,
+                  mx: 1,
+                  color: 'black',
+                  fontSize: '15px',
+                  fontWeight: 'bold',
+                  '&:hover': {
+                    backgroundColor: '#f0f0f0', // Change background color on hover
+                    color: '#0093dd', // Change text color on hover
+                  },
+                }}
+              >
+                {page}
+              </Button>
             ))}
           </Box>
 
@@ -150,4 +150,5 @@ function Navbar() {
     </AppBar>
   );
 }
+
 export default Navbar;
