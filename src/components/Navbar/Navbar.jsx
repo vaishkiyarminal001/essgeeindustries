@@ -41,7 +41,7 @@ function Navbar() {
   return (
     <div className='NavNew'>
     <AppBar 
-      style={{ backgroundColor: 'white', position: 'fixed', top: 0, zIndex: 1000 }} // Make navbar sticky
+      style={{position: 'fixed', top: 0, zIndex: 1000, backgroundImage: "linear-gradient(to left, #D0F6FF 0%, #FFEDED 48%, #FFFFE7 100%)" }} // Make navbar sticky
       position="static"
     >
       <Container maxWidth="xl">

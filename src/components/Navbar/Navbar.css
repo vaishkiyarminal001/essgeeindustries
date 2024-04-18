@@ -1,6 +1,8 @@
 .NavNew{
     padding-bottom: 5%;
-    /* border: 1px solid red; */
+    /* border: 1px solid red !important; */
+    /* background-image: linear-gradient(to right, #010a38, #170c21, #2d0e03); */
+
   }
   
   @media only screen and (max-width: 768px) {
