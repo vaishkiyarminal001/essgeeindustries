@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import video1 from "../../video/adhare1.mp4";
-import Fade from './HomeSlider';
+import { HomeSlider } from './HomeSlider';
 
 export const HomeScreen = () => {
 
@@ -26,7 +26,7 @@ export const HomeScreen = () => {
             </div>
       
             <div style={{width: '100%', paddingTop: '1%' }}>
-            <Fade/>
+            <HomeSlider/>
             </div>
 
 

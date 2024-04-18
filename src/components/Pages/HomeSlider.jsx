@@ -1,66 +1,43 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
 import gautam from '../assets/gautam.jpg';
-import ratan from '../assets/ratan.jpg';
+import './HomeSlider.css';
+import bgVideo from '../../video/bgVideo.mp4';
 
-function Fade() {
+export const HomeSlider = () => {
   return (
     <Carousel>
-      <Carousel.Item 
-      style={{ width: '100%', height: 'auto', border: "1px solid red", backgroundColor:'aqua'}} // Adjust image size      
-      >
-        <div style={{display:'flex'}}>
-        <img
-          className="d-block mx-auto"
-          src={ratan}
-          alt="ratan"
-          style={{ width: '20%', height: 'auto', border: "1px solid red" }} // Adjust image size
-        />
-       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Qui vitae hic quam, quod suscipit excepturi culpa labore 
-        repellat magni esse sed mollitia nisi beatae pariatur molestias 
-        quibusdam. Rerum, molestiae sunt.</p>
-       </div>
-      </Carousel.Item>
+      <Carousel.Item style={{ width: '100%', height: 'auto' }}>
 
-      <Carousel.Item 
-      style={{ width: '100%', height: 'auto', border: "1px solid red", backgroundColor:'aqua'}} // Adjust image size      
-      >
-        <div style={{display:'flex'}}>
-        <img
-          className="d-block mx-auto"
-          src={gautam}
-          alt="gautam"
-          style={{ width: '20%', height: 'auto', border: "1px solid red" }} // Adjust image size
-        />
-       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Qui vitae hic quam, quod suscipit excepturi culpa labore 
-        repellat magni esse sed mollitia nisi beatae pariatur molestias 
-        quibusdam. Rerum, molestiae sunt.</p>
-       </div>
-      </Carousel.Item>
+        <div className='mainContainer'>
+          {/* Video Background */}
+          <video autoPlay loop muted className='video-background'>
+            <source src={bgVideo} type="video/mp4" />
+          </video>
 
-      <Carousel.Item 
-      style={{ width: '100%', height: 'auto', border: "1px solid red", backgroundColor:'aqua'}} // Adjust image size      
-      >
-        <div style={{display:'flex'}}>
-        <img
-          className="d-block mx-auto"
-          src={ratan}
-          alt="ratan"
-          style={{ width: '20%', height: 'auto', border: "1px solid red" }} // Adjust image size
-        />
-       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Qui vitae hic quam, quod suscipit excepturi culpa labore 
-        repellat magni esse sed mollitia nisi beatae pariatur molestias 
-        quibusdam. Rerum, molestiae sunt.</p>
-       </div>
+          <div className='coroslImgtxt'>
+          {/* Image */}
+          <div className="image-container">
+            <img
+              src={gautam}
+              alt="gautam"
+              className="myimage"
+            />
+          </div>
+
+          {/* Text */}
+          
+          <div className="text-container">
+            <p>
+              <h3>Gautam Singh</h3>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui vitae hic quam, quod suscipit excepturi culpa labore repellat magni esse sed mollitia nisi beatae pariatur molestias quibusdam. Rerum, molestiae sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis est deserunt repellat esse quo quisquam laudantium ad atque, molestiae qui doloremque alias, distinctio doloribus, odio dicta eaque consectetur pariatur nam?
+            </p>
+          </div>
+        </div>
+        </div>
+
       </Carousel.Item>
-      
-     
     </Carousel>
   );
-}
-
-export default Fade;
+};
