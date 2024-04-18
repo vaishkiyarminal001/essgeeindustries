@@ -1,8 +1,10 @@
 import React from 'react'
-import "./Footer.css"
+import "./Footer.css";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import XIcon from '@mui/icons-material/X';
 import { useNavigate } from 'react-router-dom';
 
 export const Footer = () => {
@@ -29,7 +31,8 @@ export const Footer = () => {
 
         <div className="footIcon">
             <div><FacebookIcon/></div>
-            <div><InstagramIcon/></div>
+            <div><LinkedInIcon/></div>
+            <div><XIcon/></div>
             <div><AddLocationAltIcon/></div>
             
 

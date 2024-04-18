@@ -1,5 +1,5 @@
 .footer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     /* background-color: black; */
     background-image: linear-gradient(to right, #010a38, #170c21, #2d0e03);
@@ -12,8 +12,9 @@
 
 .footSeconf{
     display: flex;
-    width: 60%;
+    width: 100%;
     margin: auto;
+    padding: 1%;
     /* border: 1px solid red; */
     justify-content: space-around;
     cursor: pointer;
@@ -21,7 +22,7 @@
 
 .footIcon{
     /* border: 1px solid red; */
-    width: 10%;
+    width: 40%;
     margin: auto;
     justify-content: space-around;
     padding: 1%;
@@ -32,12 +33,14 @@
 .CreatedBy{
     /* border: 1px solid red; */
     color: white;
+    margin: auto;
+    margin-top: auto;
 }
 
 
 
 
-@media only screen and (max-width: 820px){
+@media only screen and (max-width: 756px){
 
     .footer{
         /* border: 1px solid red; */
@@ -47,31 +50,38 @@
         color: white;
         padding-top: 2%;
         padding-bottom: 2%;
+        /* border-radius: 60px 0px 0px 0px; */
+        margin-top: 3%;
     }
     
     .footSeconf{
         display: flex;
-        width: 60%;
+        width: 100%;
         margin: auto;
-        font-size: 15px;
         /* border: 1px solid red; */
         justify-content: space-around;
         cursor: pointer;
     }
-    
     .footIcon{
         /* border: 1px solid red; */
-        width: 10%;
+        width: 40%;
         margin: auto;
         justify-content: space-around;
         padding: 1%;
         font-size: 20px;
         display: flex;
     }
+    
+    .CreatedBy{
+        /* border: 1px solid red; */
+        color: white;
+        margin: auto;
+        margin-top: auto;
+    }
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 375px) {
 
     .footer{
         /* border: 1px solid red; */
@@ -81,27 +91,34 @@
         color: white;
         padding-top: 2%;
         padding-bottom: 2%;
-        font-size: 12px;
+        /* border-radius: 60px 0px 0px 0px; */
+        margin-top: 3%;
     }
     
     .footSeconf{
         display: flex;
-        width: 60%;
+        width: 100%;
         margin: auto;
-        /* border: 1px solid red; */
-        font-size: 10px;
+        border: 1px solid red;
         justify-content: space-around;
         cursor: pointer;
     }
     
     .footIcon{
         /* border: 1px solid red; */
-        width: 10%;
+        width: 40%;
         margin: auto;
         justify-content: space-around;
         padding: 1%;
-        font-size: 5px;
+        font-size: 20px;
         display: flex;
+    }
+    
+    .CreatedBy{
+        /* border: 1px solid red; */
+        color: white;
+        margin: auto;
+        margin-top: auto;
     }
 
 }
