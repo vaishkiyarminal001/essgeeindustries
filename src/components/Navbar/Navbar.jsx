@@ -14,6 +14,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import logo from "../assets/logo.png";
 import langs from "../assets/2.png";
 import Menu from '@mui/material/Menu';
+import "./Navbar.css";
 
 const pages = ['Home', 'About', 'Contact', 'Gallery', 'Product'];
 const language = ['English', 'Japanese'];
@@ -38,6 +39,7 @@ function Navbar() {
   };
 
   return (
+    <div className='NavNew'>
     <AppBar 
       style={{ backgroundColor: 'white', position: 'fixed', top: 0, zIndex: 1000 }} // Make navbar sticky
       position="static"
@@ -148,6 +150,7 @@ function Navbar() {
         ))}
       </Menu>
     </AppBar>
+    </div>
   );
 }
 

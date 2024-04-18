@@ -1,4 +1,19 @@
-.maincontainer{
-    border: 1px solid red;
-    display: flex;
-}
+.NavNew{
+    padding-bottom: 5%;
+    /* border: 1px solid red; */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .NavNew {
+      padding-bottom: 10%;
+      /* border: 1px solid red; */
+  
+    }
+  }
+  
+  @media only screen and (max-width: 373px) {
+    .NavNew {
+      padding-bottom: 20%;
+      /* border: 10px solid red; */
+    }
+  }

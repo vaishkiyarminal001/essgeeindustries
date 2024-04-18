@@ -6,12 +6,14 @@ import { Gallery } from '../Pages/Gallery'
 import { Product } from '../Pages/Product'
 import { Contact } from '../Pages/Contact'
 import { Error } from '../Pages/Error'
-import Home from '../Pages/Home'
+import { HomeScreen } from '../Pages/HomeScreen'
+
 
 export default function Allroutes () {
     return(
     <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<HomeScreen/>} />
+        <Route path="/home" element={<HomeScreen/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
