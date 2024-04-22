@@ -36,16 +36,18 @@
   }
   
   .text-container {
-    position: relative; 
-    z-index: 1; 
-    border: 1px solid transparent; /* Set transparent border with adjusted width */
-    width: 50%;
-    padding: 2%;
-    margin-left: 15%;
-    margin-top: auto;
-    margin-bottom: auto;
-    box-shadow: 0 0 5px #00FFFF, 0 0 10px #00FFFF, 0 0 15px #00FFFF, 0 0 20px #00FFFF, 0 0 35px #00FFFF, 0 0 40px #00FFFF, 0 0 50px #00FFFF, 0 0 75px #00FFFF; /* Adjusted neon effect */
-  }
+      position: relative;
+      /* border: 10px solid #FFEDED; */
+      width: 50%;
+      padding: 2%;
+      margin: auto;
+      margin-left: 20px;
+      border-radius: 50px 0px 50px 0px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-image: linear-gradient(to top, #D0F6FF 0%, #FFEDED 48%, #FFFFE7 100%);
+
+    
+    }
   
   .text-container p {
     padding: 5%;
