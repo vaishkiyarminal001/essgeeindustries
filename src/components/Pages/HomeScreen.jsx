@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import video1 from "../../video/adhare1.mp4";
 import { HomeSlider } from './HomeSlider';
+import { Client } from './Client';
 
 export const HomeScreen = () => {
 
@@ -27,6 +28,7 @@ export const HomeScreen = () => {
       
             <div style={{width: '100%', paddingTop: '1%' }}>
             <HomeSlider/>
+            <Client/>
             </div>
 
 
