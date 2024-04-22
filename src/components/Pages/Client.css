@@ -2,12 +2,7 @@
     text-align: center;
     padding: 20px;
   }
-  
-  .marqueediv{
-    border: 1px solid red;
-    width: 100%;
-    margin: auto;
-  }
+
   
   h2 {
     font-size: 24px;
@@ -25,13 +20,28 @@
   }
   
   .image_wrapper {
-    margin-right: 85px; /* Adjust as needed */
+    margin-right: 50px; /* Adjust as needed */
   }
   
   .image_wrapper img {
-    width: 120px; /* Increase the width of the images */
+    width: 150px; /* Increase the width of the images */
     height: auto;
-    border-radius: 10px; /* Add border radius to round the corners */
+    /* border-radius: 10px; */
+    /* border: 1px solid red; */
     
   }
+
+  @media only screen and (max-width: 768px) {
+    .image_wrapper img {
+      width: 100px; /* Reduce the width of the images for medium screens */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .image_wrapper img {
+      width: 80px; /* Further reduce the width of the images for small screens */
+      margin-right: 20px; /* Adjust margin for better spacing */
+    }
+  }
+  
   

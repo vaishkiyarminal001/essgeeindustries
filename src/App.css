@@ -8,6 +8,10 @@
   pointer-events: none;
 }
 
+body{
+  background-image: linear-gradient(to top, #D0F6FF 0%, #FFEDED 48%, #FFFFE7 100%)
+}
+
 
 
 @media (prefers-reduced-motion: no-preference) {
