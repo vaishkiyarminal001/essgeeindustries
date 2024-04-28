@@ -39,6 +39,12 @@ export const Footer = () => {
 
         <div className="CreatedBy">
           <h3>Created By :- KalyanTech</h3>
+
+          <div className='lastCopy'>
+          <p>© 2024 ESS GEE Industries. All rights reserved.</p>
+          <p>Terms of Service | Privacy Policy | Sitemap</p>
+          </div>
+            
         </div>
 
 
