@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import "./Product.css";
-import product from "./productvideo.mp4";
 import Sidebar from './Sidebar';
+import proVd from "../../../video/productvideo.mp4"
 
 
 export const Product = () => {
@@ -40,7 +40,7 @@ export const Product = () => {
        
         <div className="video-container">
         <video ref={videoRef} autoPlay muted loop>
-          <source src={product} type="video/mp4" />
+          <source src={proVd} type="video/mp4" />
         </video>
       </div>
 

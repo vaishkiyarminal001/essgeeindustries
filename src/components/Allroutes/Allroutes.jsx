@@ -2,11 +2,12 @@ import React from 'react'
 import {Route, Routes} from 'react-router-dom'
 
 import { About } from '../Pages/About'
-import { Gallery } from '../Pages/Gallery'
 import { Contact } from '../Pages/Contact'
 import { Error } from '../Pages/Error'
 import { HomeScreen } from '../Pages/HomeScreen'
+import { Gallery } from '../Pages/Gallery'
 import { Product } from '../Pages/Product/Product'
+
 
 
 export default function Allroutes () {
@@ -16,7 +17,7 @@ export default function Allroutes () {
         <Route path="/home" element={<HomeScreen/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/blog" element={<Gallery/>} />
         <Route path="/product" element={<Product/>} />
         <Route path="*" element={<Error />} />
     </Routes>

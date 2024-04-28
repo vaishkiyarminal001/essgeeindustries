@@ -1,0 +1,176 @@
+
+
+.videocont {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+.videocont video{
+    width: 100%;
+    height: 100%;
+}
+
+.imagText{
+    /* border: 1px solid black; */
+    display: flex;
+}
+.imageContainer {
+    position: relative; /* Ensure image stays on top of the video */
+    z-index: 1; /* Position above the video */
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5%;
+    border-radius: 50px;
+  }
+  
+  .myimg {
+    width: 500px; /* Set image width to 200 pixels */
+    height: 400px; /* Set image height to 200 pixels */
+    border-width: 2px; /* Adjust border width */
+    border-style: solid; /* Set border style */
+  }
+  
+  
+  .textContainer {
+      position: relative;
+      /* border: 10px solid #FFEDED; */
+      width: 50%;
+      padding: 2%;
+      margin: auto;
+      margin-left: 20px;
+      border-radius: 50px 0px 50px 0px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-image: linear-gradient(to top, #D0F6FF 0%, #FFEDED 48%, #FFFFE7 100%);
+
+    
+    }
+  
+  .textContainer p {
+    /* padding: 5%; */
+    text-align: justify;
+  }
+
+  .DateTag{
+    /* border: 1px solid red; */
+    font-weight: bold;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    gap: 1%;
+  }
+
+ 
+  
+  
+  
+
+  
+
+/* For medium screens */
+@media screen and (max-width: 992px) {
+    .imagText{
+        display: inline-block;
+    }
+  
+    .imageContainer,
+    .textContainer {
+      width: 100%; /* Take full width */
+      margin-left: 0; /* Remove left margin */
+      margin-right: 0; /* Remove right margin */
+      padding: 5%;
+      margin-bottom: 5%;
+    }
+
+    .textContainer p {
+      /* padding: 5%; */
+      text-align: left;
+    }
+  
+    .myimg {
+      width: 100%;
+    }
+  
+    .textContainer {
+      width: 70%;
+      margin: auto; /* Center the text container */
+      margin-bottom: 6%;
+    }
+
+    .DateTag{
+        /* border: 1px solid red; */
+        font-weight: bold;
+        margin-top: 0;
+        padding: 0;
+        display: inline-block;
+        margin: auto;
+        
+    }
+
+    .DateTag p{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+      .sym{
+        display: none;
+      }
+
+    
+  }
+  
+  /* For small screens */
+  @media screen and (max-width: 375px) {
+    .imagText{
+        display: inline-block;
+        /* border: 1px solid red; */
+    }
+    
+      .imageContainer,
+      .textContainer{
+        width: 100%; /* Take full width */
+        margin-left: 0; /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+        padding: 5%;
+        margin-bottom: 10%;
+      }
+
+      .textContainer p {
+        /* padding: 5%; */
+        text-align: left;
+      }
+    
+      .myimg {
+        width: 100%;
+      }
+    
+      .textContainer {
+        width: 90%;
+        margin: auto; /* Center the text container */
+        margin-bottom: 10%;
+        /* border: 100px solid red !important; */
+      }
+
+      .DateTag{
+        /* border: 1px solid red; */
+        font-weight: bold;
+        margin-top: 0;
+        padding: 0;
+        display: inline-block;
+        /* align-items: center; */
+        margin: auto;
+      }
+
+      .DateTag p{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+
+      }
+
+      .sym{
+        display: none;
+      }
+  }
+  

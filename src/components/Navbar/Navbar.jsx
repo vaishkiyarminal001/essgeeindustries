@@ -16,7 +16,7 @@ import langs from "../assets/2.png";
 import Menu from '@mui/material/Menu';
 import "./Navbar.css";
 
-const pages = ['Home', 'About', 'Product', 'Gallery', 'Contact'];
+const pages = ['Home', 'About', 'Product', 'Blog', 'Contact'];
 const language = ['English', 'Japanese'];
 
 function Navbar() {
