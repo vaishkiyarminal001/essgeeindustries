@@ -30,7 +30,10 @@ export const HomeSlider = () => {
             <div className="text-container">
               <p>
                 <h3>Gautam Singh</h3>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui vitae hic quam, quod suscipit excepturi culpa labore repellat magni esse sed mollitia nisi beatae pariatur molestias quibusdam. Rerum, molestiae sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis est deserunt repellat esse quo quisquam laudantium ad atque, molestiae qui doloremque alias, distinctio doloribus, odio dicta eaque consectetur pariatur nam?
+                Freedom without the strength to support it and, if need be, defend it, 
+                would be a cruel delusion. And the strength to defend freedom can itself
+                only come from widespread industrialisation and the infusion of modern 
+                science and technology into the country's economic life.
               </p>
             </div>
           </div>
@@ -58,7 +61,9 @@ export const HomeSlider = () => {
             <div className="text-container">
               <p>
                 <h3>Gautam Singh</h3>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui vitae hic quam, quod suscipit excepturi culpa labore repellat magni esse sed mollitia nisi beatae pariatur molestias quibusdam. Rerum, molestiae sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis est deserunt repellat esse quo quisquam laudantium ad atque, molestiae qui doloremque alias, distinctio doloribus, odio dicta eaque consectetur pariatur nam?
+                With honest and straightforward business principles, close and careful 
+                attention to details, and the ability to take advantage of favourable 
+                opportunities and circumstances, there is a scope for success.
               </p>
             </div>
           </div>
@@ -86,7 +91,11 @@ export const HomeSlider = () => {
             <div className="text-container">
               <p>
                 <h3>Ratan Tata</h3>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui vitae hic quam, quod suscipit excepturi culpa labore repellat magni esse sed mollitia nisi beatae pariatur molestias quibusdam. Rerum, molestiae sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis est deserunt repellat esse quo quisquam laudantium ad atque, molestiae qui doloremque alias, distinctio doloribus, odio dicta eaque consectetur pariatur nam?
+                Progress for me has never been a dream. It has always been a distant reality and 
+                once one milestone is achieved, there is always another one waiting to be crossed. 
+                It is with this belief that I started Ess Gee Industries. As one of the leading 
+                company in the field of wide range of adhesive and non adhesive tapes, we have 
+                achieved continuous growth and reached a result of globalisation in a very short time.
               </p>
             </div>
           </div>
