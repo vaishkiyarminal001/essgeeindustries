@@ -33,7 +33,7 @@ export const Footer = () => {
         
         <div className="footSeconf">
             <p onClick={() => {navigate("/home")}}>   Home</p>
-            <p onClick={() => {navigate("/gallery")}}>   Gallery</p>
+            <p onClick={() => {navigate("/blog")}}>   Blog</p>
             <p onClick={() => {navigate("/about")}}>   About</p>
             <p onClick={() => {navigate("/contact")}}>   Contact</p>
             <p onClick={() => {navigate("/product")}}>   Product</p>

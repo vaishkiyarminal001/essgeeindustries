@@ -51,8 +51,8 @@ export const HomeSlider = () => {
             {/* Image */}
             <div className="image-container">
               <img
-                src={gautam}
-                alt="gautam"
+                src="https://rilstaticasset.akamaized.net/sites/default/files/2022-09/mukesh-ambani.png"
+                alt="ambani"
                 className="myimage"
               />
             </div>
@@ -60,7 +60,7 @@ export const HomeSlider = () => {
             {/* Text */}
             <div className="text-container">
               <p>
-                <h3>Gautam Singh</h3>
+                <h3>Mukesh Ambani</h3>
                 With honest and straightforward business principles, close and careful 
                 attention to details, and the ability to take advantage of favourable 
                 opportunities and circumstances, there is a scope for success.
@@ -101,6 +101,7 @@ export const HomeSlider = () => {
           </div>
         </div>
       </Carousel.Item>
+      
     </Carousel>
   );
 
