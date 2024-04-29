@@ -15,7 +15,7 @@ export const Footer = () => {
     const message = "Welcome to ESS GEE Industries";
 
     // WhatsApp URL including the phone number and message
-    const whatsappUrl = `https://wa.me/+918507223100git?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+919899804610git?text=${encodeURIComponent(message)}`;
 
     // Open WhatsApp link in a new tab
     window.open(whatsappUrl, '_blank');
