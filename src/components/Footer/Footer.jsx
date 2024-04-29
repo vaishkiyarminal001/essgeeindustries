@@ -2,6 +2,7 @@ import React from 'react'
 import "./Footer.css";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
 import { useNavigate } from 'react-router-dom';
@@ -9,6 +10,17 @@ import { useNavigate } from 'react-router-dom';
 export const Footer = () => {
 
   const navigate = useNavigate();
+
+  const handleWhatsapp = () => {
+    const message = "Welcome to ESS GEE Industries";
+
+    // WhatsApp URL including the phone number and message
+    const whatsappUrl = `https://wa.me/+918507223100git?text=${encodeURIComponent(message)}`;
+
+    // Open WhatsApp link in a new tab
+    window.open(whatsappUrl, '_blank');
+};
+
 
   return (
 
@@ -33,6 +45,7 @@ export const Footer = () => {
             <div><LinkedInIcon/></div>
             <div><XIcon/></div>
             <div><AddLocationAltIcon/></div>
+            <div onClick={handleWhatsapp}><WhatsAppIcon/></div>
             
 
         </div>
