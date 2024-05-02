@@ -103,6 +103,40 @@ export const HomeScreen = () => {
         </div>
 
             <HomeSlider/>
+
+            {/* facilty and system */}
+
+            <div className='blogCont' style={{width: '90%'}}>
+
+              <h1 className="animated-text">Facility and Quality</h1>
+
+              <h3 style={{
+                fontSize: '20px',
+                lineHeight:'35px'
+                
+              }}>In our advanced facility, we use a careful Quality System to 
+                make sure everything we do is excellent and reliable. 
+                We're totally committed to giving you the Best products 
+                and services, which means we set the standard for quality 
+                in our industry and make sure You're happy with what we provide.</h3>
+                
+               
+                <img 
+                style={{ 
+                  width:'300px', 
+                  height:'300px', 
+                  margin: 'auto'}} 
+                  
+                  src="https://ugokawaii.com/wp-content/uploads/2022/08/increase.gif" alt="" /> 
+                  
+
+                  <div><button class="button-78" 
+            onClick={() => navigate("/blog")}
+            role="button">Know More</button></div>
+            </div>
+
+
+
             <Client/>
             </div>
 
@@ -113,8 +147,9 @@ export const HomeScreen = () => {
 
               {/* button 2 */}
 
-              <button class="button-92" onClick={() => navigate("/blog")}
-            role="button">
+              <button class="button-92" 
+              onClick={() => navigate("/blog")}
+              role="button">
               <h3>Want to Read Some Exiting blog </h3></button>
 
 
