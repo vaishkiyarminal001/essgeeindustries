@@ -3,7 +3,6 @@ import video1 from "../../video/adhare1.mp4";
 import { HomeSlider } from './HomeSlider';
 import { Client } from './Client';
 import "./HomeScreen.css";
-// import Typewriter from 'typewriter-effect';
 import { useNavigate } from 'react-router-dom';
 
 export const HomeScreen = () => {

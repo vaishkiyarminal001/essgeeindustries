@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import blogVid from "../../video/blog.mp4";
 import "./Gallery.css";
 import sc from "../assets/Screenshot 2024-04-29 021548.png";
-import ms from "../assets/Screenshot 2024-04-29 022812.png"
+import ms from "../assets/Screenshot 2024-04-29 022812.jpg"
 import Marquee from 'react-fast-marquee';
 
 export const Gallery = () => {
@@ -83,6 +83,8 @@ export const Gallery = () => {
 
       </div>
 
+      <hr style={{border:'2px solid #000000'}} />
+
       <div className='imagText'>
 
 <div className="imageContainer">
@@ -123,6 +125,8 @@ export const Gallery = () => {
 
 </div>
 
+<hr style={{border:'2px solid #000000'}} />
+
 <div className='imagText'>
 
 <div className="imageContainer">
@@ -136,20 +140,17 @@ export const Gallery = () => {
 
  <div className="textContainer">
         <p>
-        Mukesh Kumar, the brother of Shyam Prakash, spearheaded the inauguration ceremony 
-        of ESS GEE's expansion venture, Aroma India, in Bodhgaya. With meticulous attention 
-        to detail, Mukesh Kumar orchestrated a captivating opening event, embodying 
-        the essence of Indian culture and entrepreneurship. The ceremony, marked by 
-        vibrant colors, cultural performances, and dignitary presence, celebrated the 
-        launch of Aroma India as a beacon of excellence in Bodhgaya. Mukesh Kumar's 
-        leadership and dedication ensured a seamless inauguration, setting the stage 
-        for Aroma India to flourish and enrich the local community with its offerings.
+        Exploring the rich landscape surrounding Aurangabad, Maharashtra, 
+        we uncovered a promising site for our upcoming industry. 
+        With its strategic location, abundant resources, 
+        and supportive infrastructure, this region beckons as an ideal hub for growth and innovation. 
+        Eager to share our findings with delegates, we anticipate fruitful collaboration and success ahead
         </p>
 
         <div className='DateTag'>
         <p>DATE: April 25, 2024</p>
         <p className='sym'>|</p>
-        <p>TOPIC: Business Celebration</p>
+        <p>TOPIC: Business Tour</p>
        
 
         </div>
@@ -160,6 +161,8 @@ export const Gallery = () => {
       
 
 </div>
+
+<hr style={{border:'2px solid #000000'}} />
 
 
 <div className='imagText'>
@@ -202,6 +205,8 @@ export const Gallery = () => {
       
 
 </div>
+
+<hr style={{border:'2px solid #000000'}} />
     
     </div>
   )
