@@ -3,7 +3,7 @@ import blogVid from "../../video/blog.mp4";
 import "./Gallery.css";
 import sc from "../assets/Screenshot 2024-04-29 021548.png";
 import ms from "../assets/Screenshot 2024-04-29 022812.png"
-
+import Marquee from 'react-fast-marquee';
 
 export const Gallery = () => {
 
@@ -28,6 +28,20 @@ export const Gallery = () => {
           <source src={blogVid} type="video/mp4" />
         </video>
       </div>
+
+      <Marquee direction='left' speed={60} delay={10}>
+  <h2 style={{
+    fontSize: '27px',
+    paddingTop: '1%',
+    color: '#0694dd', // Change this to the neon blue color you desire
+    textShadow: '0 0 5px #00FFFF', // Add a neon glow effect
+  }}>Explore our blog for the latest ESS GEE industry insights and updates.</h2>
+</Marquee>
+
+
+
+
+
 
       {/* image and text */}
 
