@@ -8,11 +8,8 @@ import bgVideo from '../../video/bgVideo.mp4';
 
 export const HomeSlider = () => {
   return (
-
     
     <Carousel interval={5000} pause={false} style={{ width: '100%', height: 'auto' }}>
-      
-      <h1>Our Core Member</h1>
       
       <Carousel.Item>
         <div className='mainContainer'>

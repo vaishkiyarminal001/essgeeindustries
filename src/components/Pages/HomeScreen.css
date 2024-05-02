@@ -176,7 +176,7 @@
         display: inline-block;
         width: 80%;
         margin: auto;
-        /* border: 1px solid red; */
+        border: 1px solid red;
 
     }
 
@@ -233,10 +233,10 @@
         /* border: 1px solid red; */
     }
 
-    /* .ImageNewText div{
-        border: 1px solid red;
-        height: 300px;
-    } */
+    .ImageNewText img{
+        /* border: 1px solid red; */
+        height: 400px;
+    }
 
       
       .newsSection h5{

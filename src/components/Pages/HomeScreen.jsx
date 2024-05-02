@@ -24,6 +24,7 @@ export const HomeScreen = () => {
 
     return (
           <div>
+
            <div className="video-container">
         <video ref={videoRef} autoPlay muted loop>
           <source src={video1} type="video/mp4" />
@@ -98,9 +99,30 @@ export const HomeScreen = () => {
           </div>
         </div>
 
+        <div>
+          <h1>Our Core Member</h1>
+        </div>
+
             <HomeSlider/>
             <Client/>
             </div>
+
+            {/* blog */}
+
+            <div className='blogCont'>
+
+
+              {/* button 2 */}
+
+              <button class="button-92" onClick={() => navigate("/blog")}
+            role="button">
+              <h3>Want to Read Some Exiting blog </h3></button>
+
+
+            </div>
+
+            
+
 
 
           </div>
