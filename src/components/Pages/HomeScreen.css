@@ -3,7 +3,9 @@
 .video-container {
     position: relative;
     width: 100%;
-    padding-top: 56.25%; /* 16:9 aspect ratio (height/width) */
+    /* height: 200px; */
+    padding-top: 56.25%; 
+    /* border: 1px solid red; */
 }
   
 .video-container video {
@@ -174,7 +176,7 @@
         display: inline-block;
         width: 80%;
         margin: auto;
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
     }
 
