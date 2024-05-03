@@ -6,8 +6,12 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
 import { useNavigate } from 'react-router-dom';
+import { useContext } from 'react'
+import { MyAuthContext } from '../Context/AuthContextProvide';
 
 export const Footer = () => {
+
+  const { lang, setLang } = useContext(MyAuthContext);
 
   const navigate = useNavigate();
 
@@ -21,14 +25,12 @@ export const Footer = () => {
     window.open(whatsappUrl, '_blank');
 };
 
+// english mode
+if(!lang){
 
   return (
 
     <div className="footer">
-{/* 
-<h3>
-  <a href="https://www.essgeeindustries.com" style={{color:'white'}}>www.essgeeindustries.com</a>
-</h3> */}
 
         
         <div className="footSeconf">
@@ -51,11 +53,50 @@ export const Footer = () => {
         </div>
 
         <div className="CreatedBy">
-          <h3>Created By :- KalyanTech</h3>
+          <h3>Created By: KalyanTech 🚀</h3>
 
           <div className='lastCopy'>
           <p>© 2024 ESS GEE Industries. All rights reserved.</p>
           <p>Terms of Service | Privacy Policy | Sitemap</p>
+          </div>
+            
+        </div>
+    </div>
+  )
+
+}
+
+// japanese mode
+  return (
+
+    <div className="footer">
+
+        
+        <div className="footSeconf">
+            <p onClick={() => {navigate("/home")}}>   家</p>
+            <p onClick={() => {navigate("/blog")}}>   ブログ</p>
+            <p onClick={() => {navigate("/about")}}>   について</p>
+            <p onClick={() => {navigate("/contact")}}>   接触</p>
+            <p onClick={() => {navigate("/product")}}>   製品</p>
+            {/* <p onClick={() => {navigate("/form")}}>   Enquiry</p> */}
+        </div>
+
+        <div className="footIcon">
+            <div><FacebookIcon/></div>
+            <div><LinkedInIcon/></div>
+            <div><XIcon/></div>
+            <div><AddLocationAltIcon/></div>
+            <div onClick={handleWhatsapp}><WhatsAppIcon/></div>
+            
+
+        </div>
+
+        <div className="CreatedBy">
+          <h3>作成者:- KalyanTech ❤️</h3>
+
+          <div className='lastCopy'>
+          <p>© 2024 ESS GEE インダストリーズ。 無断転載を禁じます.</p>
+          <p>利用規約 | プライバシーポリシー| サイトマップ</p>
           </div>
             
         </div>
