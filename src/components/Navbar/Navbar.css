@@ -1,16 +1,21 @@
 .NavNew{
     padding-bottom: 5%;
-    /* border: 1px solid red !important; */
+    /* border: 10px solid red !important; */
     /* background-image: linear-gradient(to right, #010a38, #170c21, #2d0e03); */
 
+  }
+
+  .blankDiv{
+    border: 1px solid red; 
+    padding-bottom: 5%;
   }
   
   @media only screen and (max-width: 768px) {
     .NavNew {
       padding-bottom: 10%;
       /* border: 1px solid red; */
-  
     }
+    
   }
   
   @media only screen and (max-width: 373px) {

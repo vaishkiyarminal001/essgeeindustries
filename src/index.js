@@ -4,13 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import AuthContextProvide from './components/Context/AuthContextProvide';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <BrowserRouter>
-    <App />
+ 
+ <AuthContextProvide>
+ <App />
+ </AuthContextProvide>
+
     
-  </BrowserRouter>
+</BrowserRouter>
  
 );
 
